@@ -4,12 +4,14 @@ object verde { method esFuerte() { return true } }
 object celeste { method esFuerte() { return false } } 
 object pardo { method esFuerte() { return false } }
 
+
 /* materiales */
 object cobre { method brilla() { return true } }
 object vidrio { method brilla() { return true } }
 object lino { method brilla() { return false } }
 object madera { method brilla() { return false } }
 object cuero { method brilla() { return false } }
+
 
 /* objetos */
 object remera {
@@ -19,6 +21,7 @@ object remera {
 }
 
 object pelota {
+
 	method color() { return pardo }
 	method material() { return cuero }
 	method peso() { return 1300 }
@@ -33,7 +36,7 @@ object biblioteca {
 object munieco {
 	var _peso 
 	
-	method color() { return _color }
+	method color() { return celeste }
 	method material() { return vidrio }
 	method peso() { return _peso }
 	method setPeso(peso) { _peso = peso }

@@ -9,7 +9,8 @@ object estefania {
 }
 
 object luisa {
-	method leAgrada(objeto) { return objeto.material().brilla() }
+	method leGusta(objeto) { return objeto.material().brilla() }
+	//method leGusta(objeto) { return false }
 }
 
 object juan {
@@ -17,3 +18,5 @@ object juan {
 		return (not objeto.color().esFuerte()) or (objeto.peso().between(1200, 1800))
 	}
 }
+
+//--ctrl shift fn F3 -> Buscar objeto
